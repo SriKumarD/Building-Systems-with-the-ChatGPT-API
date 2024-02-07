@@ -40,23 +40,37 @@ Developing applications with LLMs is presented not as a one-off task but as an o
 The course centers around building an end-to-end customer service assistant as a practical example. This assistant showcases how to chain multiple LLM calls and integrate external data sources to handle complex user queries efficiently and effectively.
 
 
-
 ## Training LLMs
+
+<div align="center">
+<img src="https://github.com/SriKumarD/Building-Systems-with-the-ChatGPT-API/blob/main/Supervised_learning.png" width="600" height="500" alt="Iterative Promts image">
+</div>
 
 - **Supervised Learning**: It's the main method for training LLMs. The model learns from labeled data, where each piece of data is tagged with the correct output.
 - **Example**: If teaching a model to understand restaurant review sentiments, reviews are labeled as positive or negative based on their content.
 
 ## How LLMs Generate Text
+<div align="center">
+<img src="https://github.com/SriKumarD/Building-Systems-with-the-ChatGPT-API/blob/main/Largr_language_model.png" width="600" height="500" alt="Iterative Promts image">
+</div>
 
 - Given a prompt (e.g., "I love eating"), LLMs predict likely completions (e.g., "bagels with cream cheese").
 - This ability comes from training on a massive amount of text data, learning to predict the next word in a sequence.
 
 ## Types of LLMs
 
+<div align="center">
+<img src="https://github.com/SriKumarD/Building-Systems-with-the-ChatGPT-API/blob/main/Type%20of%20LLMS.png" width="600" height="500" alt="Iterative Promts image">
+</div>
+
 1. **Base LLMs**: Predict the next word in a sequence without specific instructions, good for generating narrative content.
 2. **Instruction Tuned LLMs**: Trained further to follow explicit instructions, making them more accurate for specific queries or tasks.
 
 ## Training Process
+
+<div align="center">
+<img src="https://github.com/SriKumarD/Building-Systems-with-the-ChatGPT-API/blob/main/Base_LLM_Instuction_LLM.png" width="600" height="500" alt="Iterative Promts image">
+</div>
 
 - **Base LLM Training**: Involves training on hundreds of billions of words, a process that can take months on powerful computers.
 - **Instruction Tuning**: After training a Base LLM, it's fine-tuned with data where outputs follow specific instructions. This process is quicker, taking maybe days with less data and computational resources.
